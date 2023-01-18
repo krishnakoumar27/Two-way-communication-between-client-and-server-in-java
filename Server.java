@@ -3,6 +3,7 @@ import java.net.*;
 
 class Server {
     public static void main(String args[]) throws Exception{
+        
         ServerSocket ss = new ServerSocket(888);
         
         Socket s = ss.accept();
